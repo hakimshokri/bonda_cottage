@@ -49,7 +49,7 @@ const Login = () => {
                                 <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                                     <i class="fas fa-envelope text-gray-400"></i>
                                 </div>
-                                <input onChange={(e) => setEmail(e.target.value)} value={email} id="email" name="email" type="email" autocomplete="email" required="" class="block w-full pl-2 rounded-md border-gray-300 pr-3 py-2 border shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="admin@bondacottage.com" />
+                                <input onChange={(e) => setEmail(e.target.value)} value={email} id="email" name="email" type="email" autocomplete="email" required="" class="block w-full pl-2 rounded-md border-gray-300 pr-3 py-2 border shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="" />
                             </div>
                         </div>
                         <div>
@@ -58,7 +58,7 @@ const Login = () => {
                                 <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                                     <i class="fas fa-lock text-gray-400"></i>
                                 </div>
-                                <input onChange={(e) => setPassword(e.target.value)} value={password} id="password" name="password" type="password" autocomplete="current-password" required="" class="block w-full pl-2 rounded-md border-gray-300 pr-3 py-2 border shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="••••••••" />
+                                <input onChange={(e) => setPassword(e.target.value)} value={password} id="password" name="password" type="password" autocomplete="current-password" required="" class="block w-full pl-2 rounded-md border-gray-300 pr-3 py-2 border shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" placeholder="" />
                                 <button type="button" class="absolute inset-y-0 right-0 flex items-center pr-3" onclick="togglePassword()">
                                     <i class="fas fa-eye text-gray-400 hover:text-gray-500"></i>
                                 </button>
