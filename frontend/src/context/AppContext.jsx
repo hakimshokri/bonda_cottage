@@ -7,7 +7,7 @@ export const AppContext = createContext()
 
 const AppContextProvider = (props) => {
 
-    const backendUrl = "https://bonda-cottage-backend.onrender.com"
+    const backendUrl = import.meta.env.VITE_BACKEND_URL
 
     const [cottages, setCottages] = useState([])
     const [token, setToken] = useState(localStorage.getItem('token') ? localStorage.getItem('token') : '')
