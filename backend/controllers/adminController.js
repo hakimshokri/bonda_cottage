@@ -150,11 +150,18 @@ const adminDashboard = async (req, res) => {
         const bookings = await bookingModel.find({})
         const users = await userModel.find({})
 
+        // calculate revenue
+        let revenue = 0
+        for (let i = 0; i < bookings.length; i++) {
+            revenue += bookings[i].amount
+        }
+
         const dashboardData = {
             cottages: cottages.length,
             bookings: bookings.length,
             users: users.length,
-            latestBookings: bookings.reverse().slice(0, 5)
+            latestBookings: bookings.reverse().slice(0, 5),
+            revenue: revenue
         }
 
         res.json({ success: true, dashboardData })
