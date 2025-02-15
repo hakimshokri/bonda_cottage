@@ -15,8 +15,7 @@ const Navbar = () => {
                 <h1 class="text-xl font-semibold text-gray-800">{title}</h1>
                 <div class="relative">
                     <button class="flex items-center space-x-3 !rounded-button">
-                        <img src="https://creatie.ai/ai/api/search-image?query=A professional headshot of a middle-aged man wearing a business suit with a warm smile, photographed against a neutral background&width=40&height=40&flag=4a10b949-0244-49a3-a146-3411061ab065&flag=5a841da8-a812-4eab-9dae-0da1e5d31aed" alt="Admin" class="w-8 h-8 rounded-full object-cover" />
-                        <span class="text-gray-700">John Admin</span>
+                        <span class="text-gray-700">Admin</span>
                         <i class="fas fa-chevron-down text-gray-400 text-sm"></i>
                     </button>
                 </div>

@@ -25,7 +25,7 @@ const Dashboard = () => {
         <div class="bg-white rounded-lg shadow p-6">
           <div class="flex items-center">
             <div class="p-3 rounded-lg bg-blue-100">
-              <i class="fas fa-home text-blue-600 text-xl"></i>
+            <img src={assets.cottage_2} alt="House Icon" class="w-6 h-6" />
             </div>
             <div class="ml-4">
               <h3 class="text-sm font-medium text-gray-500">Total Cottages</h3>
@@ -36,7 +36,7 @@ const Dashboard = () => {
         <div class="bg-white rounded-lg shadow p-6">
           <div class="flex items-center">
             <div class="p-3 rounded-lg bg-blue-100">
-              <i class="fas fa-calendar-check text-blue-600 text-xl"></i>
+            <img src={assets.booking_2} alt="Booking Icon" class="w-6 h-6" />
             </div>
             <div class="ml-4">
               <h3 class="text-sm font-medium text-gray-500">Total Bookings</h3>
@@ -47,7 +47,7 @@ const Dashboard = () => {
         <div class="bg-white rounded-lg shadow p-6">
           <div class="flex items-center">
             <div class="p-3 rounded-lg bg-blue-100">
-              <i class="fas fa-users text-blue-600 text-xl"></i>
+            <img src={assets.users} alt="Users Icon" class="w-6 h-6" />
             </div>
             <div class="ml-4">
               <h3 class="text-sm font-medium text-gray-500">Total Users</h3>
@@ -58,11 +58,11 @@ const Dashboard = () => {
         <div class="bg-white rounded-lg shadow p-6">
           <div class="flex items-center">
             <div class="p-3 rounded-lg bg-blue-100">
-              <i class="fas fa-chart-bar text-blue-600 text-xl"></i>
+            <img src={assets.revenue} alt="Revenue Icon" class="w-6 h-6" />
             </div>
             <div class="ml-4">
               <h3 class="text-sm font-medium text-gray-500">Revenue</h3>
-              <p class="text-2xl font-semibold text-gray-900">$24,500</p>
+              <p class="text-2xl font-semibold text-gray-900">RM{dashboardData.revenue}</p>
             </div>
           </div>
         </div>

@@ -20,7 +20,6 @@ const App = () => {
         <Navbar />
         <div className="flex-1 p-4">
           <Routes>
-            <Route path='/' element={<></>} />
             <Route path='/admin-dashboard' element={<Dashboard />} />
             <Route path='/all-bookings' element={<AllBookings />} />
             <Route path='/add-cottage' element={<AddCottage />} />

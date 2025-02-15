@@ -9,6 +9,9 @@ import down_arrow from './down_arrow.png';
 import users from './users.png';
 import cottage_logo from './cottage_logo.png';
 import upload_image from './upload_image.png';
+import bed from './bed.png';
+import revenue from './revenue.png';
+import logout from './logout.png';
 
 // Export all assets
 export const assets = {
@@ -22,5 +25,8 @@ export const assets = {
     down_arrow,
     users,
     cottage_logo,
-    upload_image
+    upload_image,
+    bed,
+    revenue,
+    logout,
 };
